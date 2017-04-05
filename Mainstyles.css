@@ -1,3 +1,8 @@
+body {
+	background-color:powderblue;
+}
+
+
 
 h1 { 
 	font-family: Gotham, Tahoma, sans-serif;
@@ -7,51 +12,111 @@ h2 {
 	font-family: Gotham, Tahoma, sans-serif;
 }
 
+h3{
+	font-family: Gotham, Tahoma, sans-serif;
+}
+
+p1{font-family: Gotham, Tahoma, sans-serif;
+	font-size: 24px;
+	text-align: center
+	
+}
+p2{ font-family: Gotham, Tahoma, sans-serif;
+	font-size: 18px;
+		
+}
+
+p3{	
+	font-family: Gotham, Tahoma, sans-serif;
+		list-style: circle;
+		
+	
+}
+
+p {
+	font-family: Gotham, Tahoma, sans-serif;
+		font-size: 15px
+}
+
+				
+
 .topnav { background-color: #101286;
 			overflow: hidden;
 				margin: 0;
-					padding: 0;
-						font-family: Gotham, Tahoma, sans-serif;
+					font-family: Gotham, Tahoma, sans-serif;
 }
 
 .topnav a {
     float: left;
-    color: whitesmoke;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 17px;
+    	color: yellow;
+    		text-align: center;
+    			padding: 20px ;
+    				text-decoration: none;
+    					font-size: 17px;
+							font-family: Gotham, Tahoma, sans-serif;
 }
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+   	 color: black;
+		font-family: Gotham, Tahoma, sans-serif;
 }
 
-.topnav a.active { background-color: #4CAF50;
-					color: white;
+.topnav a.active { 
+	background-color: #4CAF50;
+		color: white;
+			font-family: Gotham, Tahoma, sans-serif;
 	
 }
 
 
 .topnav > li {
 	display: inline-block;
-	padding-right: 50px
+		padding-right: 50px	
+}
+
+.imgfloat{	
+	float:left;	
+		margin: 8px;
+			height:376px;
+				width:500px;
 	
+
+}
+
+.imghover{
+	float:right;
+		margin: 8px;
+			height: 349px;
+				width: 500px;
+}
+
+.AboutVolleyball{
+	margin:auto;
+		width: 40%;
+			border: 3px solid #000000;
+				padding:10px;
+}
+
+.Annoucements{
+	margin: 8px;
+		width: 30%;
+			border: 3px solid #000000;
+				float:left;
 	
 }
 
-footer {
+.footer {
 	border-width: medium;
-	border-style: ridge;
-	background-color: #333;
-	float: left-bottom;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-	font-family: Gotham, Tahoma, sans-serif;
+		border-style: ridge;
+			background-color: #f9ce34;
+				float: bottom;
+    				color: #f2f2f2;
+   					 text-align: center;
+   						 padding: 14px 16px;
+    						text-decoration: none;
+    							font-size: 18px;
+									font-family: Gotham, Tahoma, sans-serif;
 }
 
 table { table-layout: fixed;
@@ -59,17 +124,6 @@ table { table-layout: fixed;
 				border-color: black;
 					font-family: Gotham, Tahoma, sans-serif;
 }
-
-P {
-	font-family: Gotham, Tahoma, sans-serif;
-}
-
-img { display: block; } 
-img.wrap { max-width: 50%; margin: 30px 0px; } 
-img.style { float: right; margin-left: 30px; }
-
-
-
 
 
 
