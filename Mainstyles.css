@@ -1,5 +1,9 @@
-body {
+html body {
 	background-color:powderblue;
+	padding: 10px;
+	margin: 10px;
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -17,33 +21,47 @@ h3{
 }
 
 p1{font-family: Gotham, Tahoma, sans-serif;
-	font-size: 24px;
+	font-size: px;
 	text-align: center
 	
 }
 p2{ font-family: Gotham, Tahoma, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 		
 }
 
 p3{	
 	font-family: Gotham, Tahoma, sans-serif;
 		list-style: circle;
-		
-	
+			font-size: 14px;	
 }
 
 p {
 	font-family: Gotham, Tahoma, sans-serif;
-		font-size: 15px
+		font-size: 14px
+}
+
+p4 { font-size: 20px;
+	 	font-family:  Gotham, Tahoma, sans-serif;
+			font-weight: 100;
+		
+	
+}
+
+button {
+  color: #000000;
+  	background-color: #f9ce34;
+  		font-weight: bold;
+			font-size: 20px;
+			
 }
 
 				
-
 .topnav { background-color: #101286;
 			overflow: hidden;
-				margin: 0;
+				margin:0;
 					font-family: Gotham, Tahoma, sans-serif;
+					
 }
 
 .topnav a {
@@ -78,8 +96,8 @@ p {
 .imgfloat{	
 	float:left;	
 		margin: 8px;
-			height:376px;
-				width:500px;
+			height:300px;
+				width:400px;
 	
 
 }
@@ -87,8 +105,8 @@ p {
 .imghover{
 	float:right;
 		margin: 8px;
-			height: 349px;
-				width: 500px;
+			height: 300px;
+				width: 429px;
 }
 
 .AboutVolleyball{
@@ -96,28 +114,25 @@ p {
 		width: 40%;
 			border: 3px solid #000000;
 				padding:10px;
+					font-family: Gotham, Tahoma, sans-serif;
 }
 
 .Annoucements{
 	margin: 8px;
-		width: 30%;
+		width: 40%;
 			border: 3px solid #000000;
-				float:left;
-	
+				float:center;
+					font-family: Gotham, Tahoma, sans-serif;
 }
 
-.footer {
-	border-width: medium;
-		border-style: ridge;
-			background-color: #f9ce34;
-				float: bottom;
-    				color: #f2f2f2;
-   					 text-align: center;
-   						 padding: 14px 16px;
-    						text-decoration: none;
-    							font-size: 18px;
-									font-family: Gotham, Tahoma, sans-serif;
+.Whocanplay{
+	margin:auto;
+		width: 30%;
+			border: 3px solid #000000;
+				padding:10px;
+					font-family: Gotham, Tahoma, sans-serif;
 }
+
 
 table { table-layout: fixed;
 			border-style: solid;
@@ -125,5 +140,20 @@ table { table-layout: fixed;
 					font-family: Gotham, Tahoma, sans-serif;
 }
 
+
+
+.footer {
+	border-width: medium;
+		border-style: ridge;
+			background-color: #f9ce34;
+				float: bottom;
+    				color: #000000;
+   					 text-align: center;
+   						 padding: 14px 16px;
+    						text-decoration: none;
+    							font-size: 10px;
+									font-family: Gotham, Tahoma, sans-serif;
+										width: 95%
+}
 
 
